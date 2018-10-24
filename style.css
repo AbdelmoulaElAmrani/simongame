@@ -1,0 +1,113 @@
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+.simonPads{
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+
+}
+.pad{
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    margin-top: 50px;
+    float: left;
+    position: relative;
+    width: 290px;
+    height: 290px;
+
+}
+.yellow{
+    background: yellow;
+    border-radius: 0 0 0 290px;
+    border: black solid 5px;
+
+    margin-top: 0;
+
+}
+.red{
+    background: red;
+    border-radius: 0 290px 0 0;
+    border: black solid 5px;
+
+}
+.green{
+    background: green;
+    border: black solid 5px;
+    border-radius:  290px 0 0 0;
+}
+.blue{
+    background: blue;
+    border-radius: 0 0 290px 0;
+    margin-top: 0;
+    border: black solid 5px;
+
+}
+.controller{
+    position: absolute;
+    top: 220px;
+    left: 507px;
+    width: 240px;
+    height: 240px;
+    background: white;
+    border: solid black 15px;
+    border-radius: 50%;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.title{
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+.inline{
+    margin-top: 40px;
+    display: inline-block;
+
+
+}
+.display{
+    background: black;
+    border-radius: 5px;
+    color: #fff;
+    width: 60px;
+    height: 40px;
+    font-size: 35px;
+    box-shadow: 0 18px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.start , .strict{
+    margin:0 0 0 10px;
+    width: 60px;
+    height: 60px;
+    border: black solid 2px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 69px;
+    text-shadow: 1px 1px grey;
+}
+.start{
+    background: wheat;
+    box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.strict{
+    background: darkred;
+    box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.outerSwitch{
+    width: 70px;
+    height: 35px;
+    background: black;
+    margin-top: 0;
+}
+.innerSwitch{
+    width: 35px;
+    height: 35px;
+    background: grey;
+}
