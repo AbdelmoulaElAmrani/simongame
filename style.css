@@ -28,16 +28,25 @@
     margin-top: 0;
 
 }
+.yellow-active{
+    background: rgba(255, 255, 0, 0.31) !important;
+}
 .red{
     background: red;
     border-radius: 0 290px 0 0;
     border: black solid 5px;
 
 }
+.red-active{
+    background: rgba(255, 0, 0, 0.38) !important;
+}
 .green{
     background: green;
     border: black solid 5px;
     border-radius:  290px 0 0 0;
+}
+.green-active{
+    background: rgba(0, 128, 0, 0.42);
 }
 .blue{
     background: blue;
@@ -45,6 +54,9 @@
     margin-top: 0;
     border: black solid 5px;
 
+}
+.blue-active{
+    background: rgba(0, 0, 255, 0.37);
 }
 .controller{
     position: absolute;
@@ -82,13 +94,14 @@
 .start , .strict{
     margin:0 0 0 10px;
     width: 60px;
-    height: 60px;
     border: black solid 2px;
-    border-radius: 50%;
+    border-radius: 5px;
     font-size: 15px;
-    font-weight: bold;
-    line-height: 69px;
+    font-weight: 700;
+    line-height: 53px;
     text-shadow: 1px 1px grey;
+    position: relative;
+    bottom: 6px;
 }
 .start{
     background: wheat;
