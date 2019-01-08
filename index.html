@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>simon</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
 
 <div class="container">
 
-    /*simon pad*/
+
+    <!-- Pads -->
+
     <div class="simonPads">
         <div id="0" class="pad green"></div>
         <div id="1" class="pad red"></div>
@@ -16,22 +19,26 @@
         <div id="3" class="pad blue"></div>
     </div>
 
-    /*controllers*/
+
+    <!-- Pads-->
     <div class="controller">
 
         <div class="title">SIMON</div>
-        <div class="display">00</div>
-        <div class="startBtn">START</div>
-        <div class="strict">STRICT</div>
+        <div class="display inline">00</div>
+        <div class="start inline">START</div>
+        <div class="strict inline">STRICT</div>
         <div class="switchContainer">
-            <p class="off">OFF</p>
-            <div class="outerSwitch">
+            <p class="off inline">OFF</p>
+            <div class="outerSwitch inline">
                 <div class="innerSwitch"></div>
             </div>
-            <p class="on">ON</p>
+            <p class="on inline">ON</p>
         </div>
     </div>
-
+<!-- -->
 </div>
+<script src="jquery-2.2.4.min.js"></script>
+<script src="main.js"></script>
+
 </body>
 </html>
